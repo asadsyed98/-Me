@@ -1,0 +1,339 @@
+
+.page{
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    /* text-align: center; */
+    height: 100%;
+    margin-left: 27%;
+    /* background: blueviolet; */
+    width: 72%;
+    margin-top: 20px;
+    /* margin-top:25%; */
+}
+.sidebar{
+   
+    /* background: blue; */
+
+    padding:10px;
+    text-align: center;
+    height: 620px;
+    width: 22%;
+    float: left;
+    margin-top:30px;
+    margin-right: 4%;
+    margin-left: 20px;
+    position: fixed;
+    border-radius: 5px;
+    background: #F4F4F9;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    border-radius: 50%;
+}
+.main{
+    padding: 2px;
+    /* background: green; */
+    width: 75%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    left: 22%;
+   
+}
+.name{
+    font-family: 'Alata';
+    font-size: 25px;
+    margin-top:10px;
+}
+.profession{
+    margin: 5px;
+    margin-top:10px;
+    font-family: Quicksand;
+    /* font-size: 22px; */
+}
+.menuContainer{
+    /* background: blue; */
+    margin-top: 30px;
+}
+.menu {
+    margin-top: 15px;
+    font-family: Quicksand;
+}
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgba(0,0,0,0.7);
+}
+.menu a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.home{
+    
+    background:#F7F0F5;
+    width: 95%;
+    margin-top: 30px; 
+    height: 450px;
+}
+.clear{
+    clear: both;
+}
+.heading{
+    background:#F7F0F5;
+    text-align: center;
+}
+.homeParagraph{
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 20px;
+    padding :20px;
+    height: 320px;;
+    float: left;
+    font-family: Amaranth;
+    /* background: blue; */
+    
+    
+}
+.homeImage{
+    margin-top: 50px;
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    /* background: green; */
+}
+.about {
+    background: #DECBB7;
+    width: 95%;
+    margin-top: 30px; 
+    height: 450px;
+
+}
+.about h1{
+    font-family: Amaranth;
+    margin-top: 20px;
+    padding:30px;
+}
+.about p{
+    font-family: Quicksand;
+    padding :30px;
+}
+.about{
+    background: #f7fde7;  
+}
+.about p{
+    font-size: 20px;
+}
+.section{
+   
+    /* padding:5px; */
+    flex-flow: row;
+    /* height: 500px; */
+    /* margin:10px; */
+    /* width: 400px; */
+    /* border-radius: 10px; */
+    /* background-color: black ; */
+    display: inline-block;
+    border-radius: 7px;
+    width: 95%;
+    margin-top: 10px; 
+    height: 450px;
+    
+    /* background: #028090; */
+}
+.skills{
+    background:#F7F0F5;
+    
+    
+}
+.skills h1{
+    padding-left:5%;
+    font-family: Amaranth;
+}
+.programming{
+    width: 40%;
+    /* background: blue; */
+    margin-left: 5%;
+    float: left;
+    height: 300px;
+}
+.programming h2, .software h2{
+    font-family: Amaranth;
+}
+.programming ul li, .software ul li{
+    font-family: Quicksand;
+    font-size: 20px;
+    list-style-type: none;
+}
+.software{
+    float: left;
+    width: 40%;
+    /* background: green; */
+    margin-left: 5%;
+    height: 300px;
+}
+.education{
+    background: #f7fde7;
+}
+.frontEnd{
+    background:#F7F0F5;
+    height: 700px;
+}
+.education h1, h3{
+    padding-top:10px;
+    font-family: Amaranth;
+    padding-left: 5%;
+}
+
+.frontEnd h1, h3{
+    padding-top:10px;
+    font-family: Amaranth;
+    padding-left: 5%;
+}
+.frontEndh3{
+    padding-left: 5%;
+}
+.workexp{
+    width: 30%;
+    /* background: blue; */
+    font-family: Amaranth;
+    float: left;
+}
+.workexpDate{
+    /* background: green; */
+    
+    width: 20%;
+    float: right;
+    padding:20px;
+}
+.frontEnd ul li {
+    padding:10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.wireless{
+    background: #f7fde7;
+    height: 600px;
+}
+.wireless h1, h3{
+    padding-top:10px;
+    font-family: Amaranth;
+    padding-left: 5%;
+}
+.wireless ul li {
+    padding:10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.teaching{
+    background:#F7F0F5;
+    height: 300px;
+}
+.teaching h1, h2{
+    padding-top:10px;
+    font-family: Amaranth;
+    padding-left: 5%;
+}
+.teaching ul li{
+    padding:10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.contact h1{
+    padding-top:10px;
+    font-family: Amaranth;
+    padding-left: 5%;
+}
+.email{
+    padding:10px;
+    /* background: blue; */
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+.contact{
+    background: #f7fde7;
+    height: 250px;
+}
+.mobile{
+    float: right;
+    width: 40%;
+    padding:10px;
+    /* background: green; */
+}
+.email p, .mobile p{
+    padding:10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.education p{
+    font-family: Quicksand;
+    font-size: 16px;
+    padding-left: 15%;
+}
+
+@media screen and (max-width: 600px){
+    .sidebar{
+        font-family:Raleway;
+    /* padding:5px; */
+    flex-flow: row;
+    height: 500px;
+    width: 86%;
+
+    margin-left: 5%;
+    /* border-radius: 10px; */
+   
+    display: inline-block;
+    position: static;
+    }
+    .page{
+        width: 100%;
+        margin-left: 0;
+    }
+    .homeParagraph{
+        width: 80%;
+        height: 30%;
+        margin-top: 5px;
+    }
+    .homeImage{
+        width: 80%;
+        margin-top: 0px;
+    }
+    .homeImage img{
+        width: 200px;
+        height: 220px;
+    }
+    .frontEnd{
+        height: 960px;
+    }
+    .wireless{
+        
+        height: 750px;
+    }
+    .teaching{
+        
+        height: 350px;
+    }
+    .contact{
+        height: 400px;
+    }
+    .mobile{
+        float: none;
+        width: 80%;
+        padding:10px;
+        margin-left: 20px;
+        /* background: green; */
+    }
+    .email{
+        float: none;
+        width: 80%;
+        padding:10px;
+    }
+    .about{
+        height: 600px;  
+    }
+}
